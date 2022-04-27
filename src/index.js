@@ -21,6 +21,8 @@ const firebaseConfig = {
 }
 const app = initializeApp(firebaseConfig)
 
+console.log(app)
+
 const index = (
   <React.StrictMode>
     <React.Fragment>
